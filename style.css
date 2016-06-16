@@ -326,7 +326,11 @@ p.lead {
 }
 
 .btn-applytop{
-  margin-top: 7px;
+  margin-top: 9px;
+  margin-left: 35px;
+}
+.bottom-logo{
+    margin-bottom: 15px;
 }
 .btn-apply{
     color: white !important;
@@ -1138,7 +1142,8 @@ hr.general.left {
 	font-size:14px;
 	color:#888888;
 	letter-spacing:2px;
-	text-transform:uppercase
+	text-transform:uppercase;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .section-mini-title {
@@ -1175,6 +1180,9 @@ hr.general.left {
     padding-top: 7%;
     text-align: right;
     text-transform: uppercase;
+    width: 150px;
+    float: right;
+    margin-top: 20px;
 }
 
 .funfacts-container {
@@ -1674,14 +1682,23 @@ hr.general.left {
 #testimonials .testimonial-nav li {
 	padding:0; 
 	height:150px;
-	line-height:200px;
+	line-height:175px;
 	text-align:center;
 	display:block;
 }
 #testimonials .testimonial-nav a {
 	display: block;
 	background: none;padding: 0;border: 0;width: auto;position: relative;}
-#testimonials .testimonial-nav a span {display: block; position: absolute;top: 0;left: 0;background: #fff !important;opacity: 0;-moz-opacity: 0;filter:alpha(opacity=0);}
+#testimonials .testimonial-nav a span {
+    display: block;
+    position: absolute;
+    top: 25px;
+    opacity: 1;
+    color: white;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
 #testimonials .testimonial-nav li a:hover ,
 #testimonials .testimonial-nav li a.active {    opacity: 0.4;
     filter: alpha(opacity=40); /* For IE8 and earlier */
