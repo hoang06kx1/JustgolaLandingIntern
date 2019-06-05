@@ -46,11 +46,11 @@ HOVER SERVICES -->
 
 		$('#testimonials .testimonial:eq(8),#testimonials .testimonial-nav a:eq(8)').addClass('active');
 		$('#testimonials .testimonial-nav a').hover(function(){
-			$('#testimonials .testimonial-nav a,#testimonials .testimonial').removeClass('active');
-			$(this).addClass('active');
-			$($(this).attr('href')).addClass('active');
+			
+			// $(this).addClass('active');
+			// $($(this).attr('href')).addClass('active');
 		});
-		$('#testimonials .testimonial-nav a').click(function(){ return false; });
+		// $('#testimonials .testimonial-nav a').click(function(){ return false; });
 	}
 	
 /* ==============================================
